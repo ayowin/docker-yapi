@@ -56,8 +56,10 @@ yapi server
 
 ```shell
 docker exec -it yapi /bin/bash
+# 以下 /my-yapi 需对应初始化时配置的【部署路径】
 node /my-yapi/vendors/server/app.js
 
+# 访问：http://{ip}:3000
 # 登录
 # 	用户名：初始化时配置的管理员邮箱，默认admin@admin.com
 #	密码：ymfe.org
